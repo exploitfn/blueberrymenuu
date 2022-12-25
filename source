@@ -12,7 +12,7 @@ iRay  | Programming
 
 local Release = "Beta 7R"
 local NotificationDuration = 6.5
-local RayfieldFolder = "Rayfield"
+local RayfieldFolder = "Blueberry"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 
@@ -36,7 +36,7 @@ local RayfieldLibrary = {
 			TabStroke = Color3.fromRGB(85, 85, 85),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
 			TabTextColor = Color3.fromRGB(240, 240, 240),
-			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+			SelectedTabTextColor = Color3.fromRGB(4, 0, 255),
 			
 			ElementBackground = Color3.fromRGB(35, 35, 35),
 			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
@@ -45,12 +45,12 @@ local RayfieldLibrary = {
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40), -- For labels and paragraphs
 			
 			SliderBackground = Color3.fromRGB(43, 105, 159),
-			SliderProgress = Color3.fromRGB(43, 105, 159),
+			SliderProgress = Color3.fromRGB(4, 0, 255),
 			SliderStroke = Color3.fromRGB(48, 119, 177),
 			
 			ToggleBackground = Color3.fromRGB(30, 30, 30),
-			ToggleEnabled = Color3.fromRGB(0, 146, 214),
-			ToggleDisabled = Color3.fromRGB(100, 100, 100),
+			ToggleEnabled = Color3.fromRGB(4, 0, 255),
+			ToggleDisabled = Color3.fromRGB(42, 44, 46),
 			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
 			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
 			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
